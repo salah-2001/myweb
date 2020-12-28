@@ -1,0 +1,132 @@
+*{
+   font-family: century Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+.header
+{
+    background-image: url("10.webp");
+    /* background-color: rgb(0, 0, 0); */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+ 
+}
+.ul
+{
+float: right;
+list-style-type: none;
+margin-top: 30px;
+}
+.ul li
+{
+    display: inline-block;
+}
+.ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 7px 80px;
+    border: 1px solid transparent ;
+    transition: 0,6s ease;
+}
+.ul li a:hover
+{
+  background-color: rgb(0, 0, 0);  
+  color: rgb(179, 179, 179);
+}
+ ul li.activ a
+ {
+    background-color: rgb(255, 254, 254);  
+    color: rgb(0, 0, 0);
+ }
+.logo img{
+    float: left;
+    width: 150px;
+   height: 38px;
+   margin-top: 100px;
+   margin-left: 50px;
+   
+   
+}
+.main
+{
+    max-width: 1800px;
+     background-color: #c51717;
+}
+.login_contaire{
+    position: relative;
+    height: 100vh;
+  
+}
+.login_box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.575);
+   /* CCCCCCCCCCCCCCCCCCCCC */
+   /* background-image: url("cover.png"); */
+    background-size: cover;
+    padding: 30px;
+    border-radius: 0;
+    box-shadow: 0 20px 40px rgb(0, 0, 0);
+}
+.login_box h1
+{
+    margin: 0 0 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding:0;
+    color: rgb(255, 255, 255);
+    text-align: left;
+}
+.login_box .user_box
+{
+    position: relative;
+}
+.login_box .user_box input
+{
+    width: 200px;
+    padding: 10px 0;
+    font-size: 19px;
+    color: rgb(255, 247, 247);
+    margin-bottom: 80px;
+    border: none;
+    border-bottom: 2px solid  rgb(255, 255, 255) ;
+    outline: none;
+    background-color: transparent;
+
+}
+.login_box .user_box label
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 22;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    pointer-events: none;
+    transition: 0,5s;
+}
+.login_box .user_box input : focus ~ label,
+.login_box .user_box input : valid ~ label
+{
+        top: -2px;
+        color: #fff;
+      font-size :1px;
+}
+.login_box form a {
+    display:inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0,5s;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    background-color:#f10000 ;
+    border: 1px solid #c51717;
+}
